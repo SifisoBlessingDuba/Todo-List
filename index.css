@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#edfcff ;
+ 
+}
+button{ 
+  background-color: lightblue;
+  width: 85px;
+  height: 40px;
+  text-align: center;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.intro-container{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.List{
+  margin-left: 250px;
+  text-align: center;
+  margin-right: 250px;
+
+}
+.SignIn{
+  border: 1px solid black;
+  margin-left: 250px;
+  margin-top: 50px;
+  text-align: center;
+  margin-right: 250px;
+  padding-bottom: 110px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  ;
+}
+.SignUp {
+  border: 1px solid black;
+  margin-left: 250px;
+  margin-top: 50px;
+  text-align: center;
+  margin-right: 250px;
+  padding-bottom: 80px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.textfield{
+  display: flex;
+}
+.textfield input{
+  border: 2px solid blue;
+}
+ul {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px; 
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
